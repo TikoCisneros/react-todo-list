@@ -1,4 +1,4 @@
-This project is a very simple todo list app, created in ReactJS using styled-components and MVP pattern. It was inspired by [React Scrimba Course](https://scrimba.com/course/glearnreact).
+This project is a very simple todo list app, created in ReactJS using styled-components, MVP pattern and react-testing-library. It was inspired by [React Scrimba Course](https://scrimba.com/course/glearnreact).
 
 ## Available Scripts
 

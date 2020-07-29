@@ -21,12 +21,13 @@ const TodoItem = (props) => {
   return (
     <ItemContainer>
       <ItemCheck
+        data-testid="item-check"
         type="checkbox"
         checked={completed}
         onChange={onCheckHandler}
       />
-      <ItemName completed={completed}>{text}</ItemName>
-      <ItemDelete className="erase" onClick={onDeleteHandler}>
+      <ItemName data-testid="item-name" completed={completed}>{text}</ItemName>
+      <ItemDelete data-testid="item-delete" className="erase" onClick={onDeleteHandler}>
         X
       </ItemDelete>
     </ItemContainer>
