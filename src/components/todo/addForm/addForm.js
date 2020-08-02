@@ -23,6 +23,7 @@ const AddForm = ({ onAddTask }) => {
 
   return (
     <FormInput
+      data-testid="form-input"
       type="input"
       ref={formInput}
       onKeyPress={onKeyPressHandler}

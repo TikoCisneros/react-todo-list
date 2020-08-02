@@ -7,12 +7,13 @@ const Options = ({ options, onSelectOption, onClearCompleted }) => {
   return (
     <OptionsContainer>
       <DropDown
+        data-testid="dropdown"
         isClearable
         options={options}
         onChange={onSelectOption}
         placeholder="Chose a filter option..."
       />
-      <OptionsButton onClick={onClearCompleted}>Clear completed</OptionsButton>
+      <OptionsButton data-testid="clear-button" onClick={onClearCompleted}>Clear completed</OptionsButton>
     </OptionsContainer>
   );
 };

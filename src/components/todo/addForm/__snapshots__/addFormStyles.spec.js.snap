@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Form components FormInput render successfully 1`] = `
+.c0 {
+  margin: 0 1rem 20px;
+  font-size: 20px;
+  line-height: 1.4em;
+  color: #2979FF;
+  padding: 8px 6px;
+  border: none;
+  box-shadow: 0 2px 1px -2px #757575;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #cdcdcd;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.c0::-moz-placeholder {
+  color: #cdcdcd;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.c0:-ms-input-placeholder {
+  color: #cdcdcd;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.c0::placeholder {
+  color: #cdcdcd;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.c0:focus {
+  outline: 0;
+}
+
+<input
+  className="c0"
+/>
+`;
